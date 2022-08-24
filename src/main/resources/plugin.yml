@@ -1,0 +1,4 @@
+name: Classes
+version: '${version}'
+main: ua.limefu.classes.Classes
+authors: [ LimeFu ]
