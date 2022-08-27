@@ -12,10 +12,7 @@ public final class Classes extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new EnderWizard(), this);
         getServer().getPluginManager().registerEvents(new Snake(), this);
         getServer().getPluginManager().registerEvents(new Jumper(), this);
-
-
-
-
+        getCommand("case").setExecutor(new CaseCMD());
     }
 
     @Override

@@ -36,4 +36,7 @@ public class AbilityList {
 
     }
 
+    public static Map<Ability, List<UUID>> getPlayerClass() {
+        return playerClass;
+    }
 }
